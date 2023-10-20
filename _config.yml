@@ -1,0 +1,143 @@
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Lee JongHun
+title: Client Game Developer
+email: kcl5363@naver.com
+# email_title: Email (Email title override)
+phone: 010-7547-5358
+# phone_title: Phone (Phone title override)
+website: https://jonghun-portfolio.notion.site/Portfolio-ffc1b052c87f4147ada350fd5e4891e0?pvs=4
+# website_title: Web (Website title override)
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+github_username:  IOrez
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/myface.png
+about_content: | # this will include new lines to allow paragraphs
+  안녕하세요! 게임으로 즐거움을 주고싶은 게임프로그래머 이종훈입니다.
+
+  저는 주로 C/C++ 언어를 사용하여 컨텐츠 개발을 하고있으며, shell과 jenkins를 이용하여 빌드 업무를 겸업하고있습니다. 
+  C#/C++ 과 Unity/Unreal 엔진에 관심이 많으며 자기개발로 라이브 서비스에 필요한 공부를 하고 있습니다.
+
+  Tech Stack
+    - C/C++
+    - C#
+    - Unity
+    - Unreal
+    - Shell Script
+    - Steamworks SDK
+    - Jenkins
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        sub_title: 'Steamworks SDK R&D'
+        link: https://partner.steamgames.com/doc/sdk
+        link_text: Steamworks SDK
+        quote: >
+          컴투스 ECO팀(R&D)에서 활동 (2021.10 ~ 2022.04)
+        description: | # this will include new lines to allow paragraphs
+          1. Steamworks SDK를 Unity 프로젝트에 적용하는 방법에 대해 자료 서치
+          2. Steamworks SDK를 사용하여 Steam 마켓에 인게임내 아이템을 등록하는 방법에 대해 자료 서치
+          3. Steam서비스를 할 프로젝트에 개발 환경 구축에 대해 자료 서치
+      - layout: left
+        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+                      # other value (or no value) means no border will be displayed
+        sub_title: '서머너즈워 : 천공의 아레나'
+        link: https://www.summonerswar.com/ko/skyarena
+        link_text: SummonersWar SkyArena
+        quote: >
+          컴투스 '서머너즈워 : 천공의 아레나' 팀에서 활동 (2022.04 ~ 현재)
+        description: | # this will include new lines to allow paragraphs
+          1. 컨텐츠에 필요한 UI 구현 및 다국어 대응[link](https://jonghun-portfolio.notion.site/UI-f1e36f046a0149abb079b977943a129e)
+          2. 쿠키런, 어쌔신 크리드 콜라보 진행시 UI 및 컨텐츠 구현 및 다국어 대응 [link](https://jonghun-portfolio.notion.site/7f164edac23148938e3f09fa6b3d22b8?pvs=4)
+          3. 던전 진행시 드롭되는 마나석 연출 제작 [link](https://jonghun-portfolio.notion.site/9d1ff1b399284a40897edc8e86f62fab)
+          4. 캐릭터 스킨 적용 ( 48차 형상변환 : 뇌제, 월드아레나 배틀엔젤) [link](https://jonghun-portfolio.notion.site/48-fd90e22e5df846cfa620ba71754d5fd1?pvs=4)
+          5. 캐릭터 제작 (신규 2차 각성) [link](https://jonghun-portfolio.notion.site/1-2-1186720b18fa41f6a209791f9ed85ab8)
+          6. 마을에 배치될 캐릭터 스킨 적용 [link](https://jonghun-portfolio.notion.site/e60bbb1aac4f42619ec6509bcd80dc3d)
+          
+  - title: Experience
+    layout: list
+    content:
+      - layout: right
+        title: Com2us
+        sub_title: 사원
+        caption: "2021.10 ~ 현재"
+        link: https://com2us.com/
+        quote: >
+          컴투스에서 근무중
+        description: | # this will include new lines to allow paragraphs
+          - Steamwork R&D 진행 (2021.10 ~ 2022.04)
+          - SummonersWar : SkyArena팀 클라이언트 컨텐츠 제작 (2022.04 ~ 현재)
+          - SummonersWar : SkyArena팀 클라이언트 개발-납품 빌드 제작 서브 (2023.02 ~ 현재) 
+  - title: Education
+    layout: list
+    content:
+      - layout: top-right
+        title: 동아대학교(중퇴)
+        border: weak
+        sub_title: 학점 4.46/4.5
+        caption: 2017 - 2019
+      - layout: top-right
+        title: 경북대학교(학사)
+        border: weak
+        sub_title: 학점 4.12/4.3
+        caption: 2020 - 2021
+        description: | 
+          1. 대경권 프로그래밍 경진대회 장려상 수상
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      안녕하세요 저는 대학생때부터 게임개발에 꿈을 가지고 현재 게임프로그래머를 직업으로 가지는 평범한 직장인입니다.
+      게임개발자가 되고싶었던 가장 큰 이유는 제가 가장 힘들었던 시기에 무작정 입문한 게임개발이 정말로 힘이되었고 유저는 제 지인들 뿐이었고 잠깐이었지만 함께 처음만든 게임을 하였을 때의 보람이었습니다.
+      저는 게임으로 즐거움, 추억, 삶의 원동력을 주고 싶습니다. 비록 이제 한발짝을 때었지만 지금보다 더 성장하여 제가 생각하는 바람을 꼭 이루겠습니다!
+            
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
+
+exclude : [
+  "Gemfile",
+  "Gemfile.lock",
+  "node_modules",
+  "vendor/bundle/",
+  "vendor/cache/",
+  "vendor/gems/",
+  "vendor/ruby/",
+  "lib/",
+  "scripts/",
+  "docker-compose.yml",
+  ]
